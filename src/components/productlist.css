@@ -1,0 +1,19 @@
+
+.product-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 1rem;
+}
+
+h1{
+    text-align: left;
+    padding: 1rem;
+    margin-left: 2.7rem;
+}
+
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}

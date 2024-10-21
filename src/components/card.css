@@ -1,0 +1,71 @@
+.dessert-card{
+    margin: 1rem;
+    padding: 16px;
+    text-align: center;
+   
+}
+.dessert-image{
+position: relative;
+margin-bottom: 5px;
+}
+.dessert-image img{
+border-radius: 12px;
+max-width: 100%;
+height: auto;
+object-fit: cover;
+
+}
+
+.dessert-info{
+   margin-top: 2rem;
+   text-align: left;
+}
+
+.dessert-info .name{
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #333;
+    margin: 4px 0;
+}
+
+.dessert-info .category{
+    font-size: 0.875rem;
+    color: #a2a2a2;
+    margin-bottom: 4px;
+}
+
+.dessert-info .price {
+    font-size: 1rem;
+    color: #f76c6c;
+    font-weight: bold;
+    margin: 4px 0;
+  }
+
+
+  .add-to-cart-btn{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #f76c6c;
+    border: 2px solid #f76c6c;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    width: 75%;
+  }
+
+  .add-to-cart-btn img.cart-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .add-to-cart-btn:hover {
+    color: #e0c2c2;
+    transition: background-color 0.3s ease;
+  }
